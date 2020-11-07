@@ -9,10 +9,8 @@ const SettingsScreen = () => {
   const row1 = () => {
     return (
       <View style={[styles.surface, styles.row1]}>
-        <Avatars
-          url={'https://i.nhentai.net/galleries/1770908/2.jpg'}
-          size={75}
-        />
+        {/* //Placeholder - Requires static assets */}
+        <Avatars url={'https://i.imgur.com/uLAimaY.png?fb'} size={75} />
         <Text style={styles.rowTitles}>Guest</Text>
       </View>
     );
