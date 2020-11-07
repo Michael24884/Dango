@@ -8,8 +8,8 @@ Unofficial Open Sourced nHentai App for iOS and Android. Built with React Native
 
 ### To-Do
 
-- [] Reader
-- [] User Accounts Features
-- [] Themes
-- [] Download
-- [] Browse by Tags
+- [ ] Reader
+- [ ] User Accounts Features
+- [ ] Themes
+- [ ] Download
+- [ ] Browse by Tags
