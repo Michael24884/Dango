@@ -12,6 +12,7 @@ import DetailScreen from '../Screens/DetailScreen';
 import Icon from 'react-native-dynamic-vector-icons';
 import FavoritesScreen from '../Screens/FavoritesScreen';
 import SettingsScreen from '../Screens/SettingsScreen';
+import ReaderScreen from '../Screens/ReaderScreen';
 
 const Navigator = () => {
   const Stack = createStackNavigator();
@@ -40,6 +41,11 @@ const Navigator = () => {
           name={'Detail'}
           component={DetailScreen}
           options={{headerTitle: 'Loading...'}}
+        />
+        <Stack.Screen
+          name={'Reader'}
+          component={ReaderScreen}
+          options={{headerShown: false, gestureEnabled: false}}
         />
       </Stack.Navigator>
     );

@@ -154,7 +154,6 @@ export class Converter {
         };
       });
 
-      //15067, 8378,35763
     return {
       title,
       image,

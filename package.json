@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@ant-design/react-native": "^4.0.5",
+    "@dudigital/react-native-zoomable-view": "^1.0.15",
     "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/viewpager": "^4.2.0",
     "@react-navigation/bottom-tabs": "^5.10.6",
     "@react-navigation/native": "^5.8.6",
     "@react-navigation/stack": "^5.12.3",
@@ -27,6 +29,7 @@
     "react-native-screens": "^2.13.0",
     "react-native-timeago": "^0.5.0",
     "react-native-vector-icons": "^7.1.0",
+    "react-native-viewpager-carousel": "^0.3.2",
     "swr": "^0.3.8",
     "zustand": "^3.1.3"
   },

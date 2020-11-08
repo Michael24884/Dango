@@ -128,7 +128,8 @@ const DetailScreen: FC<Props> = (props) => {
       <View style={styles.previews.view}>
         <View style={styles.previews.previewPlayView}>
           <Text style={styles.view.subSectionTitles}>Previews</Text>
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => navigation.navigate('Reader', {pages: data.images})}>
             <View style={styles.previews.previewPlayButtonView}>
               <View style={styles.previews.playButton} />
               <View
